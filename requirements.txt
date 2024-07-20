@@ -1,0 +1,9 @@
+pandas
+altair==5.1.1
+numpy
+joblib
+pycaret==3.2.0
+vegafusion==1.6.9
+vegafusion-python-embed==1.6.9
+Flask==3.0.3
+Flask-Cors==4.0.1
