@@ -52,6 +52,10 @@ def predict():
     }
 
     return jsonify(result)
+    
+@app.route('/heartbeat', methods=['GET'])
+def heartbeat():
+    return jsonify({"status": "alive"}), 200
 
 @app.route('/plot', methods=['POST'])
 def plot():
